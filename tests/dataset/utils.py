@@ -11,11 +11,11 @@ from scvi.data.fields import (
     CategoricalJointObsField,
     CategoricalObsField,
     LayerField,
+    MuDataCategoricalObsField,
+    MuDataLayerField,
+    MuDataProteinLayerField,
     NumericalJointObsField,
     ProteinObsmField,
-    MuDataLayerField,
-    MuDataCategoricalObsField,
-    MuDataProteinLayerField,
 )
 from scvi.model import SCVI
 
