@@ -563,10 +563,6 @@ def test_new_setup_compat():
 
     # Backwards compatibility test.
     registry = registry_from_setup_dict(SCVI, LEGACY_SETUP_DICT)
-    print(field_registries_legacy_subset)
-    print(
-        registry[_constants._FIELD_REGISTRIES_KEY],
-    )
     np.testing.assert_equal(
         field_registries_legacy_subset,
         registry[_constants._FIELD_REGISTRIES_KEY],
