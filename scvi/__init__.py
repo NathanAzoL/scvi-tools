@@ -11,6 +11,9 @@ from . import data, model, external, utils
 
 # https://github.com/python-poetry/poetry/pull/2366#issuecomment-652418094
 # https://github.com/python-poetry/poetry/issues/144#issuecomment-623927302
+
+print('Modified version, 12/06')
+
 try:
     import importlib.metadata as importlib_metadata
 except ModuleNotFoundError:
